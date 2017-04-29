@@ -18,7 +18,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block; }
 
 body {
-  line-height: 1; }
+  line-height: 1; 
+}
 
 ol, ul {
   list-style: none; }
@@ -924,8 +925,9 @@ html {
   max-height: 100%; }
 
 body {
+  font-family: "Microsoft Yahei" ;
   /*font-family: "Raleway", sans-serif;*/
-  font-family:  "Raleway",Verdana,sans-serif,宋体, serif, "Droid Serif", Helvetica Neue, Helvetica, Arial;
+  /*font-family:  "Raleway",Verdana,sans-serif,宋体, serif, "Droid Serif", Helvetica Neue, Helvetica, Arial;*/
   font-size: 1em;
   color: #666666; }
 
@@ -1176,6 +1178,7 @@ hr {
   vertical-align: middle; }
 
 .panel-title {
+  white-space: pre-wrap;
   margin: 0 0 5px 0;
   font-size: 2.5em;
   letter-spacing: 4px;
@@ -1244,7 +1247,7 @@ hr {
   padding: 0 60px; }
 
 .panel-main__content {
-  max-width: 620px;
+  max-width: 700px;
   margin: 0 auto; }
 
 .panel-main__content--fixed {

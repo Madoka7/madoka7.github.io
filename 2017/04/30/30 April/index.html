@@ -28,7 +28,8 @@
 <meta property="og:image" content="https://raw.githubusercontent.com/Madoka7/madoka7.github.io/master/mkd.ico">
 <meta property="og:image" content="https://raw.githubusercontent.com/Madoka7/madoka7.github.io/master/result3.bmp">
 <meta property="og:image" content="https://raw.githubusercontent.com/Madoka7/madoka7.github.io/master/result4.bmp">
-<meta property="og:updated_time" content="2017-04-30T12:32:39.682Z">
+<meta property="og:image" content="https://raw.githubusercontent.com/Madoka7/madoka7.github.io/master/bought.gif">
+<meta property="og:updated_time" content="2017-04-30T12:35:08.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="New mistakes | IN SOLITUDE WHERE WE ARE LEAST ALONE">
 <meta name="twitter:description" content="需要传输的数据是0，接收到的数据如下第一个错误数据  221的二进制是1101 1101    第二个错误数据  129的二进制是1000 0001    Thank you Madoka, other wise I wont be able to get the correct picture link. 因为是数据错误，所以我猜测是不是因为速率太快导致的buffer被充满，所以大小端信息被重写">
@@ -287,7 +288,7 @@ classes that you can use:
 <p>结果怎么着你猜，Matlab这边给出了这样的socket：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">   Read/Write State  </div><div class="line">      TransferStatus:     idle</div><div class="line">      BytesAvailable:     12</div><div class="line">      ValuesReceived:     0</div><div class="line">      ValuesSent:         0</div><div class="line"> </div><div class="line"></div><div class="line"></div><div class="line">endian_code =</div><div class="line"></div><div class="line">     1</div><div class="line"></div><div class="line"></div><div class="line">endian_code =</div><div class="line"></div><div class="line">ieee-le</div></pre></td></tr></table></figure></p>
 <p>你说说看，我肯定是要回去数一数有多少个<code>write</code>了，不然都对不起我这个珍贵的<em>12</em>。</p>
 <p>在一番苦思冥想之后，我终于似乎改对了一个版本。<br>我让recv_csi那边的写<strong>endian_flag</strong>不要那么快，让它等连接<code>connect</code>成功之后1秒再去写入。<br>果然，这样接收端每次都可以：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">endian_code =</div><div class="line"></div><div class="line">ieee-le</div></pre></td></tr></table></figure></p>
-<p>无论是谁先启动，谁后启动了。<br>花了可能一天的时间吧，完成了这个bug的修复。本文到这里就可以完结了。很开心。接下来想出去跑跑步。</p>
+<p>无论是谁先启动，谁后启动了。<br>花了可能一天的时间吧，完成了这个bug的修复。本文到这里就可以完结了。很开心。接下来想出去跑跑步。<br><img src="https://raw.githubusercontent.com/Madoka7/madoka7.github.io/master/bought.gif" alt="seito"></p>
 
   </section>
 

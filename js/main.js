@@ -5,6 +5,8 @@ $(document).ready(function() {
     currentWidth = $('.panel-cover').width();
     $('.panel-cover').addClass('animated panel-cover--collapsed slideInLeft');
     $('.content-wrapper').addClass('animated slideInLeft');
+	//Endited xiao 
+	$('.navigation-wrapper').toggleClass('visible animated bounceInDown');
   });
 
   if (window.location.hash && window.location.hash == "#blog") {

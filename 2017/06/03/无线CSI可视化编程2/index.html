@@ -6,14 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://madoka7.win">
-  <title>Archives | IN SOLITUDE WHERE WE ARE LEAST ALONE</title>
+  <title>无线CSI可视化编程2 | IN SOLITUDE WHERE WE ARE LEAST ALONE</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="IN SOLITUDE WHERE WE ARE LEAST ALONE">
-<meta property="og:url" content="http://madoka7.win/archives/index.html">
+  <meta name="description" content="接下来就是编码的时间了。首先，把endian的东西忽略掉。 然后就是设置循环的条件，while 1.不用循环更新socket的建立，一次够了。然后在读取endian的时候就开始循环，到为ret赋值的时候结束哦读取endian之后循环吧。为了省事儿先不管。">
+<meta name="keywords">
+<meta property="og:type" content="article">
+<meta property="og:title" content="无线CSI可视化编程2">
+<meta property="og:url" content="http://madoka7.win/2017/06/03/无线CSI可视化编程2/index.html">
 <meta property="og:site_name" content="IN SOLITUDE WHERE WE ARE LEAST ALONE">
+<meta property="og:description" content="接下来就是编码的时间了。首先，把endian的东西忽略掉。 然后就是设置循环的条件，while 1.不用循环更新socket的建立，一次够了。然后在读取endian的时候就开始循环，到为ret赋值的时候结束哦读取endian之后循环吧。为了省事儿先不管。">
+<meta property="og:updated_time" content="2017-06-06T07:37:42.539Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="IN SOLITUDE WHERE WE ARE LEAST ALONE">
+<meta name="twitter:title" content="无线CSI可视化编程2">
+<meta name="twitter:description" content="接下来就是编码的时间了。首先，把endian的东西忽略掉。 然后就是设置循环的条件，while 1.不用循环更新socket的建立，一次够了。然后在读取endian的时候就开始循环，到为ret赋值的时候结束哦读取endian之后循环吧。为了省事儿先不管。">
   
     <link rel="alternative" href="/atom.xml" title="IN SOLITUDE WHERE WE ARE LEAST ALONE" type="application/atom+xml">
   
@@ -153,75 +158,69 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-无线CSI可视化编程2" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2017" class="archive-year">2017</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/06/04/学习使用latex/" class="archive-article-date">
-  	<time datetime="2017-06-04T06:05:56.418Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-06-04</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/06/04/学习使用latex/">学习使用latex</a>
+    <h1 class="article-title" itemprop="name">
+      无线CSI可视化编程2
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/Experience/" class="article-tag-list-link color1">Experience</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/06/03/无线CSI可视化编程2/" class="archive-article-date">
+        
+        <a href="/2017/06/03/无线CSI可视化编程2/" class="archive-article-date">
   	<time datetime="2017-06-03T14:02:29.074Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-06-03</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/06/03/无线CSI可视化编程2/">无线CSI可视化编程2</a>
-    </h1>
-  
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>接下来就是编码的时间了。首先，把endian的东西忽略掉。</p>
+<p>然后就是设置循环的条件，while 1.<br>不用循环更新socket的建立，一次够了。<br>然后在读取endian的时候就开始循环，到为ret赋值的时候结束<br>哦读取endian之后循环吧。为了省事儿先不管。</p>
+<a id="more"></a>
+<p>上面是昨天写得。今天看了一下代码：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div></pre></td><td class="code"><pre><div class="line">switch (precision)</div><div class="line">case &#123;&apos;uchar&apos;, &apos;char&apos;&#125;</div><div class="line">    type = 5;</div><div class="line">    signed = 0;</div><div class="line">case &#123;&apos;schar&apos;&#125;</div><div class="line">    type = 5;</div><div class="line">    signed = 1;</div><div class="line">case &#123;&apos;int8&apos;&#125;</div><div class="line">    type = 0;</div><div class="line">    signed = 1;</div><div class="line">case &#123;&apos;int16&apos;, &apos;short&apos;&#125;</div><div class="line">    type = 1;</div><div class="line">    signed = 1;</div><div class="line">case &#123;&apos;int32&apos;, &apos;int&apos;, &apos;long&apos;&#125;</div><div class="line">    type = 2;</div><div class="line">    signed = 1;</div><div class="line">case &#123;&apos;uint8&apos;&#125;</div><div class="line">    type = 0;</div><div class="line">    signed = 0;</div><div class="line">case &#123;&apos;uint16&apos;, &apos;ushort&apos;&#125;</div><div class="line">    type = 1;</div><div class="line">    signed = 0;</div><div class="line">case &#123;&apos;uint32&apos;, &apos;uint&apos;, &apos;ulong&apos;&#125;</div><div class="line">    type = 2;</div><div class="line">    signed = 0;</div><div class="line">case &#123;&apos;single&apos;, &apos;float32&apos;, &apos;float&apos;&#125;</div><div class="line">    type = 3;</div><div class="line">    signed = 1;</div><div class="line">case &#123;&apos;double&apos; ,&apos;float64&apos;&#125;</div><div class="line">    type = 4;</div><div class="line">    signed = 1;</div><div class="line">otherwise</div><div class="line">    error(message(&apos;instrument:fread:invalidPRECISION&apos;));</div><div class="line">end</div></pre></td></tr></table></figure></p>
+<p>这是fread函数里定义的数据读取类型；xxyaxs的代码里有更复杂的格式，我认为他的有问题。<br>我去试试ocatve<br>octave很难用，先改matlab版本。</p>
+<p>我看看啊，目前的情况是这样：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line">&gt;&gt; read_log_socket</div><div class="line">Block length is:56579</div><div class="line">timestamp is 987710667</div><div class="line">csi_len is 0</div><div class="line">channel is 0</div><div class="line">err_info is 72</div><div class="line">noise_floor is 3</div><div class="line">rate is 85</div><div class="line">bandWidth is 9</div><div class="line">num_tones is 0  nr is 0  nc is 141</div><div class="line">rssi is 0</div><div class="line">rssi1 is 56</div><div class="line">rssi2 is 3</div><div class="line">rssi3 is 2</div><div class="line">payload length: 15674</div><div class="line">Error using icinterface/fread (line 228)</div><div class="line">SIZE * PRECISION must be less than or equal to InputBufferSize.</div><div class="line"></div><div class="line">Error in read_log_socket (line 170)</div><div class="line">        data_buf = fread(f, payload_len, &apos;uint8&apos;);</div></pre></td></tr></table></figure></p>
+<p>明着报错的那条都可以不管，因为报错是因为payload的数据大于buffer实际有的数据了。<br>需要解决的问题是现在matlab这边解析出来的数据逗很异常。<br>Block length奇怪的大！</p>
+<p>我真是天才！在使用程序员计算器查看的时候我惊喜的发现：<br>56579的二进制是啥？是1101 1101 0000 0011<br>而实际的block len是多少？是989<br>989的二进制是        0000 0011 1101 1101<br>发现规律了吗？其实问题就是读写的顺序啊！那么怎么解决这个问题呢？<br>不是很放心，拿payload len测试一下理论<br>接收端显示的是15674：<br>0011 1101 0011 1010<br>实际是124：<br>0111 1100<br>坏了。<br>一会儿回来再用新的连接试一下。<br>新的连接：15161<br>0011 1011 0011 1001<br>124<br>0111 1100</p>
+<p>现在只要能把数据都出来就是我的胜利啊。<br>但是数据因为字节序、空间的问题都不了，我很苦恼。<br>29958：<br>‭0111 0101 0000 0110‬<br>1653：<br>0000 0110 0111 0101<br>没错了，我想我的判断是正确的。那么我该如何解决大小端不匹配的错误呢？</p>
+<p>payload<br>15161：<br>0011 1011 0011 1001<br>124<br>0111 1101</p>
+<p>和炳先师兄讨论了一下，说的是先把字节序的问题给解决了，也就是说让我先在发送端或者接收端调整好字节序，然后再传数据。<br>我的想法是好的。</p>
+<p>好消息，目前已经可以完全的确定如何处理数据错误了，就是顺序的问题。<br>我听了卢爷的把timestamp给读了2遍uint32，之后后面的数据就都正常了<br>现在的想法是把发送端的buffer数据顺序给改一下，之后就不用管了<br>但是电脑因为种种原因吧，发出巨大的声音，可能是提示我不要过度工作，所以我打算把李老师的手稿做成latex。</p>
+<p>就先这样吧。</p>
 
-        <div class="article-info info-on-right">
-          
-          
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
 	<div class="article-category tagcloud">
 		<i class="icon-book icon"></i>
 		<ul class="article-tag-list">
@@ -234,324 +233,95 @@
 	</div>
 
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="http://s.jiathis.com/qrcode.php?url=http://madoka7.win/2017/06/03/无线CSI可视化编程2/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/06/03/无线CSI实时可视化编程/" class="archive-article-date">
-  	<time datetime="2017-06-03T08:08:25.461Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-06-03</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/06/03/无线CSI实时可视化编程/">无线CSI实时可视化编程</a>
-    </h1>
-  
 
-        <div class="article-info info-on-right">
-          
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/Experience/" class="article-tag-list-link color1">Experience</a>
-        		</li>
-      		
-		</ul>
-	</div>
+  
+<nav id="article-nav">
+  
+    <a href="/2017/06/03/无线CSI实时可视化编程/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          无线CSI实时可视化编程
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2017/06/04/学习使用latex/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">学习使用latex</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
 
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/05/22/22nd May/" class="archive-article-date">
-  	<time datetime="2017-05-22T10:45:55.142Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-05-22</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/05/22/22nd May/">5月22日例会</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/Experience/" class="article-tag-list-link color1">Experience</a>
-        		</li>
-      		
-		</ul>
-	</div>
 
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/05/17/14 May/" class="archive-article-date">
-  	<time datetime="2017-05-17T10:57:53.818Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-05-17</time>
-</a>
-        </div>
-    	 
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/05/17/14 May/">毕设情报</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/Experience/" class="article-tag-list-link color1">Experience</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/05/05/housing at RI/" class="archive-article-date">
-  	<time datetime="2017-05-05T05:43:26.837Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-05-05</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/05/05/housing at RI/">Housing at RI</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/Diary/" class="article-tag-list-link color1">Diary</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/05/02/Films (2) About Time/" class="archive-article-date">
-  	<time datetime="2017-05-02T10:59:21.612Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-05-02</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/05/02/Films (2) About Time/">Films (2) - About Time</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/entertainment/" class="article-tag-list-link color4">entertainment</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/05/02/1st May/" class="archive-article-date">
-  	<time datetime="2017-05-02T04:40:51.161Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-05-02</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/05/02/1st May/">记一次微信路由劫持</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/Diary/" class="article-tag-list-link color1">Diary</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/04/30/Films (1)/" class="archive-article-date">
-  	<time datetime="2017-04-30T13:51:30.665Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-04-30</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/04/30/Films (1)/">Films (1) - WikiLeaks</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/entertainment/" class="article-tag-list-link color4">entertainment</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/04/30/A letter to Tian/" class="archive-article-date">
-  	<time datetime="2017-04-30T12:37:14.030Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-04-30</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/04/30/A letter to Tian/">A letter to Tian</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/Experience/" class="article-tag-list-link color1">Experience</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
-
-    
-    <nav id="page-nav">
-      <span class="page-number current">1</span><a class="page-number" href="/archives/page/2/">2</a><a class="extend next" rel="next" href="/archives/page/2/">Next &raquo;</a>
-    </nav>
   
 
 
@@ -575,8 +345,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
